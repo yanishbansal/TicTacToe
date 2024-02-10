@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/TicTacToe/static/css/main.de327c33.css",
+    "main.js": "/TicTacToe/static/js/main.aae94331.js",
+    "index.html": "/TicTacToe/index.html",
+    "static/media/icon-x-outline.svg": "/TicTacToe/static/media/icon-x-outline.a591bdf22fd3be0addcb328bb85f4766.svg",
+    "static/media/logo.svg": "/TicTacToe/static/media/logo.6a3d7c7d71604d60499698d758e297b4.svg",
+    "static/media/icon-restart.svg": "/TicTacToe/static/media/icon-restart.5233068679491c1d7f0fb92e28e7953e.svg",
+    "static/media/icon-x.svg": "/TicTacToe/static/media/icon-x.8bf458bc3b7ac8faaf8536a53fc8e469.svg",
+    "static/media/icon-o-outline.svg": "/TicTacToe/static/media/icon-o-outline.44ebb2196ec7043f1e17c46090539957.svg",
+    "static/media/icon-o.svg": "/TicTacToe/static/media/icon-o.44678c794b80f1cafa42048754bf0abd.svg",
+    "main.de327c33.css.map": "/TicTacToe/static/css/main.de327c33.css.map",
+    "main.aae94331.js.map": "/TicTacToe/static/js/main.aae94331.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de327c33.css",
+    "static/js/main.aae94331.js"
+  ]
+}
