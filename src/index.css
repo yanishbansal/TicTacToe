@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+@layer components {
+  .btn {
+    @apply text-center text-dark-navy tracking-wide font-bold rounded-2xl transition ease-in-out delay-100;
+  }
+  .custom-card {
+    @apply text-center rounded-xl bg-semi-dark-navy shadow-cardShadow;
+  }
+  .landscape-menu {
+    @apply w-screen gap-1 h-95 my-auto;
+  }
+
+  .landscape-tablet-menu {
+    @apply py-2 h-1/3;
+  }
+
+  .landscape-game {
+    @apply h-95 w-[90%] my-auto justify-around;
+  }
+  .landscape-gameboard {
+    @apply self-end gap-3 h-[70%] w-3/5 max-w-md;
+  }
+  .landscape-score-cont {
+    @apply absolute flex flex-col justify-between w-2/6 h-2/4 bottom-[10%] left-[3%];
+  }
+
+  .landscape-score-card {
+    @apply py-1 px-2 flex flex-row justify-between;
+  }
+
+  .landscape-selection-buttons {
+    @apply absolute flex-col justify-evenly w-[45%] left-[2vw] bottom-[40%] translate-x-0 translate-y-2/4 py-6;
+  }
+  .landscape-selection-menu {
+    @apply self-end w-1/2 h-3/4 ml-auto;
+  }
+}
